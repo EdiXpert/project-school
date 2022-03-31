@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #000;
+}
+
+.hero {
+	width: 100%;
+	height: 639px;
+	background-image: url(wavebottom.svg), linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-size: 100% 300px, cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+	
+.hero__container {
+	width: 90%;
+	height: 100%;
+	padding: 100px 0;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.hero__title {
+	font-size: 30px;
+}
+
+.hero__paragraph {
+	width: 70%;
+	font-size: 18px;
+	margin: 15px auto;
+}
+
+.hero__cta {
+	display: inline-block;
+	background-color: #fff;
+	padding: 12px 25px;
+	color: #000;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+.hero__cta--inicio {
+	text-decoration: none;
+	color: #48338d;
+	background-color: #fff;
+	padding: 12px 25px;
+	border-radius: 30px;
+	top: 0;
+	right: 0;
+}
+
+.hero__picture {
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.hero__img {
+	display: block;
+	width: 100%;
+}
+
+.main__container {
+	display: flex;
+	padding-top: 95px;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 0 auto;
+	background-image: url(wavetop.svg);
+	background-image: url(wavebottom.svg);
+	background-color: #ffdd00;
+	background-size: 9 299px;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.main__texts {
+	width: 80%;
+}
+
+.main__paragraph {
+	margin-top: 160px;
+	text-align: center;
+	font-weight: 500;
+	margin-left: 0 auto;
+	font-size: 25px;
+	cursor: default;
+	padding: 60px 90px;
+}
+
+.main__picture {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.hero__img {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.main__container-2 {
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 180px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	justify-content: space-between;
+	background-image: url(wavetop.svg), linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.main__paragraph-2 {
+	padding-top: 80px;
+	width: 600px;
+	text-align: center;
+}
+
+
+.main__picture-2 {
+	padding-top: 70px;
+	float: left;
+}
+
+.foot {
+	width: 100%;
+	height: 170px;
+	background-color: #4f3983;
+}
+
+.foot__social {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.foot_cta {
+	width: 20px;
+}
+
+.foot_paragrah {
+	text-align: right;
+	font-weight: 600;
+	font-size: 20px;
+}

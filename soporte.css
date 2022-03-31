@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.main {
+    display: grid;
+    height: 639px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/icons/wavebottom.svg), linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-size: 100% 300px, cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+    padding: 200px 0;
+    background-color: aquamarine;
+}
+.main__container {
+    width: 100%;
+    text-align: center;
+}
+
+.main__inputs {
+    display: block;
+    padding: 20px;
+}
+.main__input {
+    width: 40%;
+    font-family: inherit;
+    border: none;
+    outline: none;  
+    margin-top: 10px;
+    padding: 6px 13.5px;
+    transition: background 1s;
+}
+
+.main__input:focus {
+    background-color: #D3D3D3;
+    transition: background 1s;
+}
+
+.main__cta {
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 10px;
+	background-color: #fff;
+	padding: 12px 25px;
+	color: #48338d;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+}
+
+.main__cta:hover {
+    background-color: #D3D3D3;
+}
+.main__cta:active {
+    background-color: #B9B9B9;
+}
