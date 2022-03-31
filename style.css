@@ -13,7 +13,6 @@ body {
 
 .hero {
 	width: 100%;
-	height: 639px;
 	background-image: url(wavebottom.svg), linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 	background-size: 100% 300px, cover;
 	background-repeat: no-repeat;
